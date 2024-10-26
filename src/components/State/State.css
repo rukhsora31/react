@@ -1,0 +1,21 @@
+.box{
+    backdrop-filter: blur(20px);
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    gap: 15px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    padding: 20px;
+
+    button{
+        padding: 15px;
+    }
+
+    h2{
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
